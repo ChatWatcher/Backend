@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'chat',
     'rest_framework',
     'corsheaders',
-    'django_filters',
     'admin_honeypot',
     'django_otp',
     'django_otp.plugins.otp_totp',
