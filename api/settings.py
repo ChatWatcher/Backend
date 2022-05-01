@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5#pay=3d-$+-=@sp%m-*-s#0bvomz)=5lrmq-_bk*!v6-_o+mg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['streamalyzer.herokuapp.com']
+ALLOWED_HOSTS = ['streamalyzer.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

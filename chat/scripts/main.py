@@ -233,4 +233,4 @@ def main(url):
 
 # Initialize NLP libraries for Sentiment Analysis 
 wordnet_lemmatizer = WordNetLemmatizer()
-nltk.download('all')
+# nltk.download('all')
