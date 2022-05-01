@@ -10,4 +10,5 @@ class StatSerializer(serializers.ModelSerializer):
         # Database table
         model = Stats
         # Fields to appear on the response
-        fields = ('VOD', 'streamerName', 'positiveComments', 'negativeComments', 'neutralComments', 'mostCommonWord', 'mostPositiveUser', 'mostNegativeUser',)
+        fields = ('VOD', 'streamerName', 'positiveComments', 'negativeComments', 'neutralComments', 'streamerThumbnail', 'mostCommonWord', 'mostPositiveUser', 'mostNegativeUser', )
+

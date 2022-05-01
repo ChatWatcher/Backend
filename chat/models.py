@@ -14,7 +14,7 @@ class Stats(models.Model):
     # Number of negative comments
     negativeComments = models.BigIntegerField(blank=True, null=True)
 
-    # Number of negative comments
+    # Number of neutral comments
     neutralComments = models.BigIntegerField(blank=True, null=True)
 
     # Streamer Thumbnails
