@@ -38,6 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'chat',
+    'rest_framework',
+    'corsheaders',
+    'django_filters',
+    'admin_honeypot',
+    'django_otp',
+    'django_otp.plugins.otp_totp',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
