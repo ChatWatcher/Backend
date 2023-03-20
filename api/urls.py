@@ -12,9 +12,9 @@ from drf_yasg import openapi
 # Creating Documentation for the API
 schema_view = get_schema_view(
    openapi.Info(
-      title="Insider Unlocked",
+      title="Chat Watch",
       default_version='v1',
-      description="Insider Unlocked API",
+      description="Chat Watch API",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="rehmafar@gmail.com"),
       license=openapi.License(name="MIT License"),
